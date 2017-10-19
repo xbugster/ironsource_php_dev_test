@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <div class="container-fluid">
+        <div class="pull-left">
+            <h4>{{title}}</h4>
+        </div>
+        <div class="pull-right">
+            <button type="button" class="btn btn-default" routerLink="{{addLink()}}">
+                <span class="glyphicon glyphicon-plus"></span>
+                &nbsp;&nbsp;Create Package
+            </button>
+        </div>
+    </div>
+    <div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Enabled?</th>
+                <th>Created</th>
+                <th>Last Updated</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pack of results">
+                <td>{{pack.id}}</td>
+                <td>{{pack.name}}</td>
+                <td>{{pack.is_enabled}}</td>
+                <td>{{pack.created_time}}</td>
+                <td>{{pack.updated_time}}</td>
+                <td>
+                    <a routerLink="{{editLink(pack)}}" href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <a routerLink="{{deleteLink(pack)}}" href="#"><span class="glyphicon glyphicon-remove"></span></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+

@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="container-fluid">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <h4>{{title}}</h4>
+            <br/>
+            <div class="alert alert-success" *ngIf="success">
+                <strong>Success!</strong> Your new package created.
+            </div>
+            <div class="alert alert-danger" *ngIf="error">
+                <strong>Error!</strong> We failed to create your package :(
+            </div>
+            <form #createPackageForm="ngForm" (ngSubmit)="createPackage(createPackageForm)">
+                <div class="form-group">
+                    <label for="package_name">Package name</label>
+                    <input class="form-control" name="name" id="package_name" placeholder="Package Name" ngModel>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="is_enabled" id="is_enabled" ngModel> The package is active ?
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+

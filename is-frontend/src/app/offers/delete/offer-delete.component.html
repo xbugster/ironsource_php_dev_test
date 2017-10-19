@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="container-fluid">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+      <h4>{{title}}</h4>
+      <br/>
+      <div class="alert-info" *ngIf="!success && !error">
+        <strong>FIY</strong> Removal request already in process, please wait...
+      </div>
+      <div class="alert alert-success" *ngIf="success">
+        <strong>Success!</strong> We just remove offer number {{subject_id}} as You asked.
+      </div>
+      <div class="alert alert-danger" *ngIf="error">
+        <strong>Error!</strong> We failed to remove requested offer :( Perhaps someone removed this offer before...
+      </div>
+    </div>
+    <div class="col-lg-3"></div>
+  </div>
+</div>
