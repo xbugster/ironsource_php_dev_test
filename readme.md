@@ -4,6 +4,8 @@ Author: Valentin Ruskevych <Leaderpvp@gmail.com>
 
 Task: check out [task.pdf](task.pdf) in root folder.
 
+Code Date: August 2017
+
 ## Result
 Usually IronSource will schedule a code review, the result of this test was passing with no review required. :)
 
