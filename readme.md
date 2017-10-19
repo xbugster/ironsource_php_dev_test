@@ -1,6 +1,7 @@
 # Iron Source Web Test
 
 Author: Valentin Ruskevych <Leaderpvp@gmail.com>
+Task: check out task.pdf in root folder.
 
 ## Software Requirements:
 
