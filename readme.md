@@ -3,6 +3,9 @@
 Author: Valentin Ruskevych <Leaderpvp@gmail.com>
 Task: check out task.pdf in root folder.
 
+## Result
+Usually IronSource will schedule a code review, the result of this test was passing with no review required. :)
+
 ## Software Requirements:
 
 * PHP 7.1+
