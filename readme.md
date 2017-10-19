@@ -6,6 +6,11 @@ Task: check out task.pdf in root folder.
 ## Result
 Usually IronSource will schedule a code review, the result of this test was passing with no review required. :)
 
+## Important Note
+* Code Demonstration is for professional demonstration only.
+* This code SHOULD NOT be used for your test.
+* Always remember - demonstrating someone's code during interview will bring you very sad results! Reference use only! 
+
 ## Software Requirements:
 
 * PHP 7.1+
