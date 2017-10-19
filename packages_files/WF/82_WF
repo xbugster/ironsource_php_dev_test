@@ -1,0 +1,17 @@
+{
+    "name": "Erdman-Mayer",
+    "is_enabled": "1",
+    "id": "82",
+    "country": "WF",
+    "file_created_at": "2017-08-29 22:47:45",
+    "offers": [
+        {
+            "name": "Spinka Group",
+            "is_enabled": "0",
+            "content": "Quaerat commodi alias consequatur explicabo vero impedit. Maiores voluptates dolor ex atque sunt praesentium. Id hic possimus ad qui corrupti et. Dolores aperiam minus ex ut iure.",
+            "created_time": "2016-12-02 13:47:41",
+            "installs_limit_per_day": "2408",
+            "id": "24"
+        }
+    ]
+}
