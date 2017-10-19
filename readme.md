@@ -1,15 +1,16 @@
 # Iron Source - Senior PHP Developer Web Test
 
 Author: Valentin Ruskevych <Leaderpvp@gmail.com>
+
 Task: check out task.pdf in root folder.
 
 ## Result
 Usually IronSource will schedule a code review, the result of this test was passing with no review required. :)
 
-## Important Note
-* Code Demonstration is for professional demonstration only.
-* This code SHOULD NOT be used for your test.
-* Always remember - demonstrating someone's code during interview will bring you very sad results! Reference use only! 
+## Important Notes
+* Code Demonstration is for professional purpose only.
+* This code **SHOULD NOT** be used for your test.
+* Always remember - demonstrating someone's code will lead you to sad result! Reference use only! 
 
 ## Software Requirements:
 
