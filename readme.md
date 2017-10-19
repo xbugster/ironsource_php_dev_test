@@ -46,7 +46,6 @@ NPM 5.3.0,
 Composer 1.5.1
 
 # BackEnd 
--
 * PHP without additional packages
 * Architecture: Event Based
 * Support for REST Resources and standard route (no fancies on backend)
@@ -56,6 +55,5 @@ Composer 1.5.1
 * App Lifecycle is *initialize -> request -> dispatch -> response*
 * Package files is store within directory ```packages_files```
 * Offers mapping done using stored procedure **NOTE**: procedure everytime truncates package_offer and might be improved to continue records order.
-* No Git used :P
 
 
