@@ -1,4 +1,4 @@
-# Iron Source Web Test
+# Iron Source - Senior PHP Developer Web Test
 
 Author: Valentin Ruskevych <Leaderpvp@gmail.com>
 Task: check out task.pdf in root folder.
